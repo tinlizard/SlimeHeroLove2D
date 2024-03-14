@@ -13,7 +13,7 @@ function player:init()
     player.animations = {
         idleAnimation = anim8.newAnimation(player.idleGrid('1-4',1),0.1),
         walkAnimation = anim8.newAnimation(player.walkGrid('2-7',2),0.1),
-        fightAnimation = anim8.newAnimation(player.attackGrid('1-7',9),0.1)
+        fightAnimation = anim8.newAnimation(player.attackGrid('1-6',9),0.1)
     }
     player.isIdling = true
     player.isWalking = false
